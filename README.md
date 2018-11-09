@@ -22,6 +22,6 @@ npm install webpack webpack-dev-middleware --save-dev
 - webpack (Webpack Compiler/Bundler) [NPM Link](https://www.npmjs.com/package/webpack)
 - webpack-dev-middleware (Uses Webpack to compile assets in-memory and serve them) [NPM Link](https://www.npmjs.com/package/webpack-dev-middleware)
 
-<h2>Babel</h2>
+<h3>Babel</h3>
 
 Babel 7 will be used for transpiling the code.  This allows for use of Javascript ES6 enhancements and Node modules.  Babel will "transpile" them to ES5 code for compatibility with older browsers.  For example Babel will take a `const` variables carefully scoped `var` variables, template stings will be converted to string concatenation, etc.
