@@ -10,9 +10,9 @@ I am using this project to learn node.js and how to build a development environm
 - Bootstrap for styling
 
 <hr>
-First is to setup the development environment.
+<h2>First is to setup the development environment.</h2>
 
-<h2>Webpack</h2>
+<h3>Webpack</h3>
 Webpack 4 is a module bundler. Webpack takes modules with dependencies and generates static assets representing those modules.
 
 ```
@@ -20,7 +20,7 @@ npm install webpack webpack-dev-middleware --save-dev
 ```
 
 - webpack (Webpack Compiler/Bundler) [NPM Link](https://www.npmjs.com/package/webpack)
-- webpack-dev-middleware (Uses to compile assets in-memory and serve them) [NPM Link](https://www.npmjs.com/package/webpack-dev-middleware)
+- webpack-dev-middleware (Uses Webpack to compile assets in-memory and serve them) [NPM Link](https://www.npmjs.com/package/webpack-dev-middleware)
 
 <h2>Babel</h2>
 
