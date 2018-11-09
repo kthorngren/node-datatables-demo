@@ -34,7 +34,7 @@ npm install @babel/cli @babel/core @babel/node @babel/preset-env @babel/register
 - @babel/cli (CLI that communicates with Babel Transpiler) [NPM Link](https://www.npmjs.com/package/@babel/cli)
 - @babel/node (babel-node is a CLI that works exactly the same as the Node.js CLI, with the added benefit of compiling with Babel presets and plugins before running it.) [NPM Link](https://www.npmjs.com/package/@babel/node)
 - @babel/preset-env (Transpiles files using ES6, ES7, and ES8. The same as babel-preset-latest, which includes babel-preset-es2015, babel-preset-es2016, and babel-preset-es2017. However, babel-preset-latest is deprecated and replaced by babel-preset-env) [NPM Link](https://www.npmjs.com/package/@babel/preset-env)
-- @babel/register (All subsequent files required by node with the extensions .es6, .es, .jsx and .js will be transformed by Babel) [NPM Link](https://www.npmjs.com/package/babel-register)
+- @babel/register (All subsequent files required by node with the extensions .es6, .es, .jsx and .js will be transformed by Babel) [NPM Link](https://www.npmjs.com/package/@babel/register)
 
 
 <h3>JS/JSX & CSS Loaders</h3>
