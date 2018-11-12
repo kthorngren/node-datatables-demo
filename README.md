@@ -46,3 +46,19 @@ npm install babel-loader style-loader css-loader --save-dev
 - babel-loader (Loads the files to Webpack for Babel to transpile) [NPM Link](https://www.npmjs.com/package/babel-loader)
 - style-loader (Add exports of a module as style to DOM. Necessary when using css-loader, sass-loader, or less-loader) [NPM Link](https://www.npmjs.com/package/style-loader)
 - css-loader (Loads CSS file with resolved imports and returns CSS code) [NPM Link](https://www.npmjs.com/package/css-loader)
+
+<h3>Setting up Babel (.babelrc)</h3>
+
+Add the Babel presets to .babelrc.  In this case we will use @babel/preset-env (ES6, ES7, and ES8 files).
+
+```
+{
+  "presets": [
+    "@babel/preset-env",
+  ]
+}
+```
+
+<h3>Setting up Webpack (webpack.config.js)</h3>
+
+The Webpack configuration will be placed into webpack.config.js.

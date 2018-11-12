@@ -2,9 +2,7 @@ import path from 'path';
 
 const config = {
   mode: "production",
-  //debug: true,
   devtool: 'inline-source-map',
-  //noInfo: false,
   entry: [
     path.resolve(__dirname, 'src/index.js')
   ],
